@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&family=Poppins:wght@500&family=Protest+Guerrilla&family=Sofadi+One&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  font-family: 'poppins',sans-serif;
+  background-color: rgb(255, 255, 255);
+}

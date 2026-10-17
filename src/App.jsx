@@ -6,18 +6,20 @@ import Portfolio from './components/Portfolio'
 import Experiance from './components/Experiance'
 import Footer from './components/Footer'
 import Contact from './components/Contact'
+import { ThemeProvider } from "./context/ThemeContext";
 function App() {
   return (
-    <div>
-      <Navbar/>
-      <Home/>
-      <About/>
-      <Portfolio/>
-      <Experiance/>
-      <Contact/>
-      <Footer/>
-    </div>
-  )
+    <ThemeProvider>
+      <Navbar />
+      <Home />
+      <About />
+      <Portfolio />
+      <Experiance />
+      <Contact />
+      <Footer />
+    </ThemeProvider>
+  );
 }
 
-export default App
+export default App;
+
